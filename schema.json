@@ -1,0 +1,31 @@
+{
+  "reason_for_visit": "string",
+  "conditions": [
+    {
+      "name": "string",
+      "clinical_status": "active | resolved | remission"
+    }
+  ],
+  "medications": [
+    {
+      "name": "string",
+      "dose": "string or null",
+      "route": "string or null",
+      "frequency": "string or null",
+      "status": "active | stopped | intended"
+    }
+  ],
+  "allergies": [
+    {
+      "substance": "string",
+      "reaction": "string or null"
+    }
+  ],
+  "observations": [
+    {
+      "measurement": "string",
+      "value": "string or null",
+      "unit": "string or null"
+    }
+  ]
+}
